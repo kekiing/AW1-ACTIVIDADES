@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Tipo*/
+
+body {
+    background-color: rgb(235, 177, 167);
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /*cambia el dibujo dl cursor cuando el mouse pasa por encima*/
+}
+
+/*Clase*/
+
+.cabecera-principal {
+    background-color: rgb(235, 120, 100);
+}
+
+.cabecera-principal h1 {
+    text-align: center;
+}
+
+.cabecera-principal nav {
+    text-align: center;
+    background-color: rgb(216, 85, 62);
+}
+
+.cabecera-principal .icono-principal {
+    width: 50px;
+}
+
+.contenido-principal h2 {
+    background-color: rgb(235, 120, 100);
+    text-align: center;
+}
+
+.contenido-principal .foto-personal {
+    width: 400px;
+}
+
+.contenido-principal .imagenes-secundarias {
+    width: 200px;
+}
+
+.formulario-contacto {
+    display: flex; /*activa el layout flex = con 'column' apila las 
+                    etiquetas del form una debajo de otra, en una sola columna*/
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formulario-contacto label {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.formulario-contacto input, .formulario-contacto select, .formulario-contacto textarea {
+    display: block; 
+    width: 100%; /*ocupa el 100 del ancho disponible en vez de ajustarlo al contenido*/
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.pie-principal {
+    background-color: rgb(216, 85, 62);
+    text-align: center;
+}

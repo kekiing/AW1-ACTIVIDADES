@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductora Lucia Fernandez</title>
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+<body>
+    <header class="cabecera-principal">
+        <a href="./index.html">
+            <img class="icono-principal" src="recursos/imgs/inicio.png" alt="icono cadenita ingles">
+        </a>
+        <nav>
+            <a  href="./index.html">QUIEN SOY?</a>
+            <a  href="./contacto.html">CONTACTEMENOS!</a>
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+        <h1>FORMULARIO DE CONTACTO</h1>
+        <p>
+            ¿Necesitás traducir un documento o tenés dudas sobre el proceso de certificación? Completá el siguiente formulario con el mayor detalle posible y me pondré en contacto a la brevedad para brindarte un presupuesto y los plazos estimados.
+        </p>
+        <form class="formulario-contacto " action="./contacto.html" method="post">
+            <label for="id-nombre">Nombre Completo</label>
+            <input type="text" name="nombre" id="id-nombre">
+            <label for="id-email">E-mail</label>
+            <input type="email" name="email" id="id-email">
+            <label for="id-telefono">Telefono</label>
+            <input type="tel" name="telefono" id="id-telefono">
+            <label for="id-doc">Tipo de archivo</label>
+
+            <select name="documento" id="id-doc">
+                <option value="documentoLegal">Documento legal</option>
+                <option value="partidaNacimiento">Partida de nacimiento</option>
+                <option value="tituloAcademico">Titulo academico</option>
+                <option value="documentoComercial">Documento comercial</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="id-idiomaOrigen">Seleccione idioma del documento</label>
+            <select name="idiomaOrigen" id="id-idiomaOrigen">
+                <option value="español">español</option>
+                <option value="ingles">ingles</option>
+                <option value="aleman">aleman</option>
+                <option value="japones">japones</option>
+            </select>
+            
+            <label for="id-idiomaDestino">Seleccione idioma a traducir</label>
+            <select name="idiomaDestino" id="id-idiomaDestino">
+                <option value="español">español</option>
+                <option value="ingles">ingles</option>
+                <option value="aleman">aleman</option>
+                <option value="japones">japones</option>
+            </select>
+            
+            <label for="id-certificacion">Requiere certificacion publica?</label>
+            <select name="certificación" id="id-certificacion">
+                <option value="si">si</option>
+                <option value="no">no</option>
+            </select>    
+            <label for="id-plazo">Plazo en el que necesita el servicio</label>
+        <select name="plazo" id="id-plazo">
+            <option value="urgente">Urgente (24-48 hs)</option>
+            <option value="estaSemana">Esta semana</option>
+            <option value="sinApuro">Sin apuro</option>
+        </select>
+            <label for="id-detalle">Detalles adicionales</label>
+            <textarea name="detalle" id="id-detalle"></textarea>
+            <button type="submit">Subir</button>
+        </form>
+
+        <h2>COMO SEGUIR?</h2>
+        <p>Una vez tengamos acceso al documento y luego de analizarlo, nuestro equipo de comunicación se va a acercar a vos para enviarte un presupuesto. Muchas gracias!</p>
+        <img class="imagenes-secundarias" src="recursos/imgs/handshake.png" alt="">
+    
+    </main>
+
+    <footer class="pie-principal">
+        <ul>
+            <li>
+                <a href="https://instagram.com@lutraductora" target="_blank">
+                    @lutraductora
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+
+</body>
+</html>
