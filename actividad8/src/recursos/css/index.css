@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Sora';
+    src: url(./fuentes/Sora-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Sora;
+    font-size: 16px;
+}
+
+/*tipo*/
+body{
+    background-color: #feeac7;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #a4133c;
+}
+
+footer {
+    background-color: #606c38;
+}
+
+/*clase*/
+/*-- cabecera principal*/
+.cabecera-principal {
+    display: flex;
+    justify-content: space-between; /*pone el isologotipo y el inicio a la misma altura*/
+    align-items: center;
+    background-color: #606c38;
+}
+
+.cabecera-principal .icono-principal {
+    width: 200px;
+}
+
+/*-- contenido */
+.contenedor { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor .cabaña{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    width: 600px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.formulario label { /*esto hace que los label esten a la misma altura, junto a los campos que llena el usuario*/
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+}
+
+/*-- pie principal*/
+.pie-principal {
+    text-align: center;
+    background-color: #606c38;
+}
