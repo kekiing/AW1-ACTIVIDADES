@@ -1,4 +1,4 @@
-//1a) sin retorno de valor
+//1a)
 console.log("-----1------")
 function saludarNormal(){
     console.log("Hola, bienvenido!") 
