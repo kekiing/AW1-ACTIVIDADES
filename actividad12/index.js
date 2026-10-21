@@ -1,5 +1,5 @@
 // 1) a)
-/*
+
 const numeros = [];
 
 for (let i = 0; i < 5; i++) {
@@ -41,7 +41,7 @@ const frutasNa = frutas.filter((fruta) =>
     fruta.includes("na"));
  
 console.log(frutasNa)
-*/
+
 
 
 // ------- 2 --------
